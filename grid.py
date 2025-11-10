@@ -137,6 +137,7 @@ class GridWorld():
  
     def add_policy(self, policy_matrix):                  
         for state, state_action_group in enumerate(policy_matrix):    
+            # import pdb; pdb.set_trace()
             x = state % self.env_size[0]
             y = state // self.env_size[0]
             for i, action_probability in enumerate(state_action_group):
