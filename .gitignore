@@ -1,0 +1,9 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 其他常见的 Python 文件
+*.so
+.Python
+
